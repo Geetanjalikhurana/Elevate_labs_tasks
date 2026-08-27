@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elevate Calculator - Modern Web App</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background-globes">
+        <div class="globe globe-1"></div>
+        <div class="globe globe-2"></div>
+        <div class="globe globe-3"></div>
+    </div>
+
+    <div class="app-container">
+        <!-- Main Calculator Card -->
+        <main class="calculator-card">
+            <header class="calc-header">
+                <div class="logo">
+                    <span class="badge">Elevate Labs</span>
+                    <h1>CLI & Web Calculator</h1>
+                </div>
+            </header>
+
+            <div class="display-container">
+                <div class="expression-display" id="expressionDisplay"></div>
+                <div class="main-display" id="mainDisplay">0</div>
+            </div>
+
+            <div class="keypad">
+                <button class="btn function-btn" data-action="clear">AC</button>
+                <button class="btn function-btn" data-action="backspace">⌫</button>
+                <button class="btn operator-btn" data-op="%">%</button>
+                <button class="btn operator-btn" data-op="/">÷</button>
+
+                <button class="btn num-btn" data-num="7">7</button>
+                <button class="btn num-btn" data-num="8">8</button>
+                <button class="btn num-btn" data-num="9">9</button>
+                <button class="btn operator-btn" data-op="*">×</button>
+
+                <button class="btn num-btn" data-num="4">4</button>
+                <button class="btn num-btn" data-num="5">5</button>
+                <button class="btn num-btn" data-num="6">6</button>
+                <button class="btn operator-btn" data-op="-">-</button>
+
+                <button class="btn num-btn" data-num="1">1</button>
+                <button class="btn num-btn" data-num="2">2</button>
+                <button class="btn num-btn" data-num="3">3</button>
+                <button class="btn operator-btn" data-op="+">+</button>
+
+                <button class="btn operator-btn" data-op="^">xʸ</button>
+                <button class="btn num-btn" data-num="0">0</button>
+                <button class="btn num-btn" data-num=".">.</button>
+                <button class="btn equals-btn" data-action="equals">=</button>
+            </div>
+        </main>
+
+        <!-- Sidebar / History Panel -->
+        <aside class="history-panel">
+            <div class="history-header">
+                <h2>Calculation History</h2>
+                <button id="clearHistoryBtn" class="clear-history-btn">Clear</button>
+            </div>
+            <div class="history-list" id="historyList">
+                <div class="empty-history">No calculations performed yet.</div>
+            </div>
+        </aside>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
