@@ -1,0 +1,31 @@
+OrderID,Date,Region,Category,Product,Units_Sold,UnitPrice,Total_Sales,Payment_Method
+1001,2024-01-05,North,Electronics,Laptop,5,1200.00,6000.00,Credit Card
+1002,2024-01-07,South,Furniture,Office Chair,12,150.00,1800.00,PayPal
+1003,2024-01-10,East,Clothing,Jacket,25,80.00,2000.00,Credit Card
+1004,2024-01-12,West,Electronics,Smartphone,10,800.00,8000.00,Direct Debit
+1005,2024-01-15,North,Furniture,Desk,4,350.00,1400.00,Credit Card
+1006,2024-01-18,East,Electronics,Headphones,30,50.00,1500.00,PayPal
+1007,2024-01-22,South,Clothing,Sneakers,15,110.00,1650.00,Credit Card
+1008,2024-01-25,West,Furniture,Bookshelf,8,220.00,1760.00,PayPal
+1009,2024-02-02,North,Clothing,T-Shirt,50,25.00,1250.00,Credit Card
+1010,2024-02-05,East,Electronics,Monitor,7,300.00,2100.00,Direct Debit
+1011,2024-02-08,South,Electronics,Laptop,3,1200.00,3600.00,Credit Card
+1012,2024-02-12,West,Clothing,Jacket,18,80.00,1440.00,PayPal
+1013,2024-02-15,North,Furniture,Office Chair,15,150.00,2250.00,Credit Card
+1014,2024-02-20,East,Clothing,Sneakers,20,110.00,2200.00,PayPal
+1015,2024-02-24,South,Furniture,Desk,6,350.00,2100.00,Direct Debit
+1016,2024-02-28,West,Electronics,Headphones,40,50.00,2000.00,Credit Card
+1017,2024-03-03,North,Electronics,Tablet,12,450.00,5400.00,Credit Card
+1018,2024-03-07,East,Furniture,Bookshelf,10,220.00,2200.00,PayPal
+1019,2024-03-11,South,Clothing,T-Shirt,60,25.00,1500.00,Credit Card
+1020,2024-03-15,West,Electronics,Smartphone,15,800.00,12000.00,Credit Card
+1021,2024-03-18,North,Clothing,Jacket,22,80.00,1760.00,PayPal
+1022,2024-03-22,East,Electronics,Laptop,8,1200.00,9600.00,Credit Card
+1023,2024-03-25,South,Furniture,Office Chair,10,150.00,1500.00,Direct Debit
+1024,2024-03-29,West,Clothing,Sneakers,25,110.00,2750.00,Credit Card
+1025,2024-04-02,North,Electronics,Monitor,14,300.00,4200.00,PayPal
+1026,2024-04-05,East,Furniture,Desk,5,350.00,1750.00,Credit Card
+1027,2024-04-10,South,Electronics,Tablet,9,450.00,4050.00,Credit Card
+1028,2024-04-15,West,Clothing,T-Shirt,45,25.00,1125.00,PayPal
+1029,2024-04-20,North,Furniture,Bookshelf,7,220.00,1540.00,Direct Debit
+1030,2024-04-25,East,Electronics,Smartphone,11,800.00,8800.00,Credit Card
