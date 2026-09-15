@@ -1,0 +1,187 @@
+{% extends "base.html" %}
+
+{% block title %}{{ profile.name }} | Python Developer Portfolio{% endblock %}
+
+{% block content %}
+<!-- Hero Section -->
+<section class="hero-section" id="hero">
+    <div class="container hero-container">
+        <div class="hero-text">
+            <span class="badge-role"><i class="fa-solid fa-terminal"></i> {{ profile.title }}</span>
+            <h1 class="hero-heading">Hi, I'm <span class="highlight">{{ profile.name }}</span></h1>
+            <p class="hero-bio">{{ profile.bio }}</p>
+            <div class="hero-actions">
+                <a href="#projects" class="btn btn-primary"><i class="fa-solid fa-code-branch"></i> View My Work</a>
+                <a href="#contact" class="btn btn-outline"><i class="fa-solid fa-paper-plane"></i> Get In Touch</a>
+            </div>
+            <div class="hero-meta">
+                <span><i class="fa-solid fa-location-dot"></i> {{ profile.location }}</span>
+                <span><i class="fa-solid fa-envelope"></i> {{ profile.email }}</span>
+            </div>
+        </div>
+        <div class="hero-avatar">
+            <div class="avatar-card">
+                <div class="code-window">
+                    <div class="code-header">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                        <span class="code-title">app.py</span>
+                    </div>
+                    <pre class="code-body"><code><span class="k">from</span> flask <span class="k">import</span> Flask, render_template
+
+app = Flask(__name__)
+
+<span class="nd">@app.route</span>(<span class="s">"/"</span>)
+<span class="k">def</span> <span class="f">portfolio</span>():
+    developer = <span class="s">"{{ profile.name }}"</span>
+    role = <span class="s">"Python Developer"</span>
+    <span class="k">return</span> render_template(<span class="s">"index.html"</span>)
+
+<span class="k">if</span> __name__ == <span class="s">"__main__"</span>:
+    app.run(debug=<span class="k">True</span>)</code></pre>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- About Section -->
+<section class="section about-section" id="about">
+    <div class="container">
+        <h2 class="section-title"><i class="fa-solid fa-user"></i> About Me</h2>
+        <div class="about-grid">
+            <div class="about-card">
+                <h3><i class="fa-solid fa-rocket"></i> My Mission</h3>
+                <p>Building scalable web services and intuitive user interfaces using Python and modern backend frameworks. Passionate about writing clean, maintainable code following PEP 8 guidelines and robust testing standards.</p>
+            </div>
+            <div class="about-card">
+                <h3><i class="fa-solid fa-graduation-cap"></i> Internship Focus</h3>
+                <p>Currently completing the Python Developer Internship at Elevate Labs, expanding practical mastery in Flask routing, Jinja2 templating, web form security, and test-driven development.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Skills Section -->
+<section class="section skills-section" id="skills">
+    <div class="container">
+        <h2 class="section-title"><i class="fa-solid fa-gears"></i> Technical Skills</h2>
+        <div class="skills-grid">
+            {% for skill in profile.skills %}
+            <div class="skill-card">
+                <div class="skill-header">
+                    <span class="skill-name">{{ skill.name }}</span>
+                    <span class="skill-level-badge">{{ skill.level }}</span>
+                </div>
+                <span class="skill-category"><i class="fa-solid fa-tag"></i> {{ skill.category }}</span>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<!-- Projects Section -->
+<section class="section projects-section" id="projects">
+    <div class="container">
+        <h2 class="section-title"><i class="fa-solid fa-laptop-code"></i> Projects</h2>
+        <div class="projects-grid">
+            {% for project in projects %}
+            <div class="project-card {% if project.featured %}featured-card{% endif %}">
+                {% if project.featured %}
+                <div class="featured-badge"><i class="fa-solid fa-star"></i> Featured</div>
+                {% endif %}
+                <div class="project-content">
+                    <span class="project-category">{{ project.category }}</span>
+                    <h3 class="project-title">{{ project.title }}</h3>
+                    <p class="project-description">{{ project.description }}</p>
+                    <div class="tech-tags">
+                        {% for tech in project.technologies %}
+                        <span class="tech-tag">{{ tech }}</span>
+                        {% endfor %}
+                    </div>
+                    <div class="project-links">
+                        <a href="{{ url_for('project_detail', project_id=project.id) }}" class="btn btn-sm btn-primary">
+                            <i class="fa-solid fa-circle-info"></i> Details
+                        </a>
+                        <a href="{{ project.github }}" target="_blank" class="btn btn-sm btn-outline">
+                            <i class="fa-brands fa-github"></i> Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<!-- Experience Section -->
+<section class="section experience-section" id="experience">
+    <div class="container">
+        <h2 class="section-title"><i class="fa-solid fa-briefcase"></i> Experience</h2>
+        <div class="timeline">
+            {% for exp in experiences %}
+            <div class="timeline-item">
+                <div class="timeline-icon"><i class="fa-solid fa-code"></i></div>
+                <div class="timeline-content">
+                    <div class="timeline-header">
+                        <h3>{{ exp.role }}</h3>
+                        <span class="company-tag">{{ exp.company }}</span>
+                    </div>
+                    <span class="timeline-date"><i class="fa-regular fa-calendar"></i> {{ exp.period }}</span>
+                    <ul class="timeline-highlights">
+                        {% for highlight in exp.highlights %}
+                        <li><i class="fa-solid fa-check text-success"></i> {{ highlight }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<!-- Contact Form Section -->
+<section class="section contact-section" id="contact">
+    <div class="container">
+        <h2 class="section-title"><i class="fa-solid fa-paper-plane"></i> Contact Me</h2>
+        <p class="section-subtitle">Have a question, feedback, or project opportunity? Drop a message below!</p>
+        
+        <div class="contact-card">
+            <form action="{{ url_for('contact') }}" method="POST" class="contact-form" id="contactForm" novalidate>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name"><i class="fa-solid fa-user"></i> Full Name <span class="required">*</span></label>
+                        <input type="text" id="name" name="name" class="form-control" placeholder="Jane Doe" 
+                               value="{{ form_data.name if form_data else '' }}" required>
+                        <span class="error-msg" id="nameError"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="email"><i class="fa-solid fa-envelope"></i> Email Address <span class="required">*</span></label>
+                        <input type="email" id="email" name="email" class="form-control" placeholder="jane@example.com" 
+                               value="{{ form_data.email if form_data else '' }}" required>
+                        <span class="error-msg" id="emailError"></span>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="subject"><i class="fa-solid fa-heading"></i> Subject <span class="required">*</span></label>
+                    <input type="text" id="subject" name="subject" class="form-control" placeholder="Project Inquiry / Feedback" 
+                           value="{{ form_data.subject if form_data else '' }}" required>
+                    <span class="error-msg" id="subjectError"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="message"><i class="fa-solid fa-comment-dots"></i> Message <span class="required">*</span></label>
+                    <textarea id="message" name="message" class="form-control" rows="5" placeholder="Write your message here..." required>{{ form_data.message if form_data else '' }}</textarea>
+                    <span class="error-msg" id="messageError"></span>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-submit">
+                    <i class="fa-solid fa-paper-plane"></i> Send Message
+                </button>
+            </form>
+        </div>
+    </div>
+</section>
+{% endblock %}

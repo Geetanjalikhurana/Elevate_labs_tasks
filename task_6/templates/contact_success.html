@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block title %}Message Sent | {{ profile.name }}{% endblock %}
+
+{% block content %}
+<section class="section success-section">
+    <div class="container text-center">
+        <div class="success-card">
+            <div class="success-icon">
+                <i class="fa-solid fa-circle-check"></i>
+            </div>
+            <h1>Thank You, {{ submission.name }}!</h1>
+            <p class="success-lead">Your message has been successfully received.</p>
+            
+            <div class="submission-summary">
+                <h3><i class="fa-solid fa-receipt"></i> Message Summary</h3>
+                <div class="summary-item">
+                    <strong>Email:</strong> {{ submission.email }}
+                </div>
+                <div class="summary-item">
+                    <strong>Subject:</strong> {{ submission.subject }}
+                </div>
+                <div class="summary-item">
+                    <strong>Message:</strong>
+                    <p class="summary-message">{{ submission.message }}</p>
+                </div>
+            </div>
+
+            <div class="success-actions">
+                <a href="{{ url_for('index') }}" class="btn btn-primary">
+                    <i class="fa-solid fa-house"></i> Return to Homepage
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

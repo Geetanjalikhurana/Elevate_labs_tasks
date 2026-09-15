@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block title %}{{ project.title }} | {{ profile.name }}{% endblock %}
+
+{% block content %}
+<section class="section project-detail-section">
+    <div class="container">
+        <a href="{{ url_for('index') }}#projects" class="btn btn-outline btn-sm back-btn">
+            <i class="fa-solid fa-arrow-left"></i> Back to Projects
+        </a>
+
+        <div class="detail-card">
+            <span class="project-category">{{ project.category }}</span>
+            <h1 class="detail-title">{{ project.title }}</h1>
+            <p class="detail-description">{{ project.description }}</p>
+
+            <div class="detail-block">
+                <h3><i class="fa-solid fa-layer-group"></i> Tech Stack &amp; Tools</h3>
+                <div class="tech-tags">
+                    {% for tech in project.technologies %}
+                    <span class="tech-tag tag-large">{{ tech }}</span>
+                    {% endfor %}
+                </div>
+            </div>
+
+            <div class="detail-actions">
+                <a href="{{ project.github }}" target="_blank" class="btn btn-primary">
+                    <i class="fa-brands fa-github"></i> View GitHub Repository
+                </a>
+                <a href="{{ url_for('index') }}#contact" class="btn btn-outline">
+                    <i class="fa-solid fa-envelope"></i> Contact About This Project
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
