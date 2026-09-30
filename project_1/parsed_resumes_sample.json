@@ -1,0 +1,477 @@
+[
+  {
+    "filename": "1_Alex_Rivers_Data_Scientist.pdf",
+    "name": "Alex Rivers",
+    "email": "alex.rivers@email.com",
+    "phone": "+1 (555) 234-5678",
+    "links": {
+      "LinkedIn": "linkedin.com/in/alex-rivers-data",
+      "GitHub": "github.com/alexrivers"
+    },
+    "skills": {
+      "categorized_skills": {
+        "Programming Languages": [
+          "Python",
+          "R",
+          "SQL"
+        ],
+        "Data Science & AI / ML": [
+          "Machine Learning",
+          "Deep Learning",
+          "NLP",
+          "Spacy",
+          "Transformers",
+          "Huggingface",
+          "scikit-learn",
+          "TensorFlow",
+          "PyTorch",
+          "Pandas",
+          "Numpy",
+          "Plotly",
+          "Xgboost",
+          "LLM"
+        ],
+        "Databases & Storage": [
+          "PostgreSQL"
+        ],
+        "Cloud & DevOps": [
+          "AWS",
+          "Docker"
+        ],
+        "Tools & Platforms": [
+          "Git",
+          "Github",
+          "Streamlit"
+        ]
+      },
+      "all_skills": [
+        "AWS",
+        "Deep Learning",
+        "Docker",
+        "Git",
+        "Github",
+        "Huggingface",
+        "LLM",
+        "Machine Learning",
+        "NLP",
+        "Numpy",
+        "Pandas",
+        "Plotly",
+        "PostgreSQL",
+        "PyTorch",
+        "Python",
+        "R",
+        "SQL",
+        "Spacy",
+        "Streamlit",
+        "TensorFlow",
+        "Transformers",
+        "Xgboost",
+        "scikit-learn"
+      ],
+      "total_skills_count": 23
+    },
+    "education": [
+      "Master of Science in Computer Science - Stanford University (2018 - 2020)",
+      "Bachelor of Technology in Computer Engineering - MIT (2014 - 2018)"
+    ],
+    "experience": {
+      "details": [
+        "Predictive Analytics. Proven track record of deploying robust ML models in production."
+      ],
+      "estimated_years": 7
+    },
+    "raw_text": "Alex Rivers\nEmail: alex.rivers@email.com | Phone: +1 (555) 234-5678 | LinkedIn: linkedin.com/in/alex-rivers-data | GitHub:\ngithub.com/alexrivers\nPROFESSIONAL SUMMARY\nResults-driven Senior Data Scientist with 6+ years of experience in Machine Learning, Deep Learning, NLP, and\nPredictive Analytics. Proven track record of deploying robust ML models in production.\nTECHNICAL SKILLS\nPython, R, PyTorch, TensorFlow, Scikit-Learn, Pandas, NumPy, NLP, spaCy, HuggingFace, SQL, PostgreSQL,\nDocker, AWS, Streamlit, Git\nWORK EXPERIENCE\nSenior Data Scientist | AI Solutions Inc. (2021 - Present)\n- Built LLM-powered document parsing and NLP extraction pipelines improving search efficiency by 45%.\n- Fine-tuned BERT and spaCy transformers for automated entity extraction.\nData Scientist | TechCorp Analytics (2018 - 2021)\n- Developed predictive machine learning models using XGBoost and Random Forest with 92% accuracy.\n- Designed interactive dashboards with Streamlit and Plotly for executive stakeholders.\nEDUCATION\nMaster of Science in Computer Science - Stanford University (2018 - 2020)\nBachelor of Technology in Computer Engineering - MIT (2014 - 2018)",
+    "ats_match": {
+      "ats_score": 90.9,
+      "matched_skills": [
+        "AWS",
+        "Docker",
+        "Machine Learning",
+        "NLP",
+        "PostgreSQL",
+        "PyTorch",
+        "Python",
+        "SQL",
+        "Spacy",
+        "TensorFlow"
+      ],
+      "missing_skills": [
+        "Communication"
+      ],
+      "match_percentage": "90.9%",
+      "recommendation": "Excellent Match! High candidate suitability for this position."
+    }
+  },
+  {
+    "filename": "2_Priya_Sharma_FullStack_Developer.pdf",
+    "name": "Priya Sharma",
+    "email": "priya.sharma@techdev.org",
+    "phone": "+91 98765 43210",
+    "links": {
+      "LinkedIn": "linkedin.com/in/priyasharma-dev",
+      "GitHub": "github.com/priyasharma99"
+    },
+    "skills": {
+      "categorized_skills": {
+        "Programming Languages": [
+          "Python",
+          "Javascript",
+          "Typescript",
+          "Html5",
+          "Css3"
+        ],
+        "Web & Frontend Development": [
+          "React",
+          "React.js",
+          "Next.js",
+          "Tailwindcss",
+          "Graphql",
+          "Rest Api"
+        ],
+        "Backend & Frameworks": [
+          "Fastapi",
+          "Node.js",
+          "Express",
+          "Express.Js",
+          "Microservices"
+        ],
+        "Databases & Storage": [
+          "PostgreSQL",
+          "MongoDB"
+        ],
+        "Cloud & DevOps": [
+          "Docker"
+        ],
+        "Tools & Platforms": [
+          "Git",
+          "Github"
+        ]
+      },
+      "all_skills": [
+        "Css3",
+        "Docker",
+        "Express",
+        "Express.Js",
+        "Fastapi",
+        "Git",
+        "Github",
+        "Graphql",
+        "Html5",
+        "Javascript",
+        "Microservices",
+        "MongoDB",
+        "Next.js",
+        "Node.js",
+        "PostgreSQL",
+        "Python",
+        "React",
+        "React.js",
+        "Rest Api",
+        "Tailwindcss",
+        "Typescript"
+      ],
+      "total_skills_count": 21
+    },
+    "education": [
+      "Bachelor of Engineering in Information Technology - Delhi Technological University (2018 - 2022)"
+    ],
+    "experience": {
+      "details": [
+        "Python, and cloud infrastructure."
+      ],
+      "estimated_years": 4
+    },
+    "raw_text": "Priya Sharma\nEmail: priya.sharma@techdev.org | Phone: +91 98765 43210 | LinkedIn: linkedin.com/in/priyasharma-dev | GitHub:\ngithub.com/priyasharma99\nPROFESSIONAL SUMMARY\nVersatile Full Stack Developer with 4 years of experience crafting scalable web applications using React, Node.js,\nPython, and cloud infrastructure.\nTECHNICAL SKILLS\nJavaScript, TypeScript, Python, React.js, Next.js, Node.js, Express.js, FastAPI, HTML5, CSS3, TailwindCSS,\nMongoDB, PostgreSQL, REST API, GraphQL, Docker, Git\nWORK EXPERIENCE\nFull Stack Engineer | CloudScale Tech (2022 - Present)\n- Architected RESTful microservices with Node.js and Express, handling over 1M daily requests.\n- Developed high-performance frontend interfaces using React.js and TypeScript.\nSoftware Engineering Intern | WebMatrix (2021 - 2022)\n- Integrated MongoDB database schemas and implemented JWT authentication protocols.\nEDUCATION\nBachelor of Engineering in Information Technology - Delhi Technological University (2018 - 2022)",
+    "ats_match": {
+      "ats_score": 27.3,
+      "matched_skills": [
+        "Docker",
+        "PostgreSQL",
+        "Python"
+      ],
+      "missing_skills": [
+        "AWS",
+        "Communication",
+        "Machine Learning",
+        "NLP",
+        "PyTorch",
+        "SQL",
+        "Spacy",
+        "TensorFlow"
+      ],
+      "match_percentage": "27.3%",
+      "recommendation": "Low Match. Missing key requirements: NLP, TensorFlow, PyTorch, Spacy, Machine Learning."
+    }
+  },
+  {
+    "filename": "3_Marcus_Vance_DevOps_Architect.docx",
+    "name": "Marcus Vance",
+    "email": "marcus.vance@cloudops.io",
+    "phone": "+1 415 889 9012",
+    "links": {
+      "LinkedIn": "linkedin.com/in/marcusvance-devops",
+      "GitHub": "github.com/mvance-ops"
+    },
+    "skills": {
+      "categorized_skills": {
+        "Programming Languages": [
+          "Python",
+          "Bash"
+        ],
+        "Cloud & DevOps": [
+          "AWS",
+          "Azure",
+          "Docker",
+          "Kubernetes",
+          "Terraform",
+          "Ansible",
+          "Jenkins",
+          "Github Actions",
+          "CI/CD",
+          "Helm",
+          "Prometheus",
+          "Grafana",
+          "Nginx",
+          "Linux"
+        ],
+        "Tools & Platforms": [
+          "Github"
+        ],
+        "Software Engineering & Concepts": [
+          "System Design"
+        ]
+      },
+      "all_skills": [
+        "AWS",
+        "Ansible",
+        "Azure",
+        "Bash",
+        "CI/CD",
+        "Docker",
+        "Github",
+        "Github Actions",
+        "Grafana",
+        "Helm",
+        "Jenkins",
+        "Kubernetes",
+        "Linux",
+        "Nginx",
+        "Prometheus",
+        "Python",
+        "System Design",
+        "Terraform"
+      ],
+      "total_skills_count": 18
+    },
+    "education": [
+      "Bachelor of Science in Information Systems - University of Washington (2014 - 2018)"
+    ],
+    "experience": {
+      "details": [
+        "Lead Cloud Infrastructure Architect | Enterprise Systems (2020 - Present)",
+        "- Managed multi-region Kubernetes clusters on AWS EKS serving 10M+ active users.",
+        "- Automated infrastructure provisioning with Terraform, cutting setup time by 70%.",
+        "Senior DevOps Engineer | InfraSolutions (2018 - 2020)",
+        "- Implemented GitOps CI/CD pipelines using GitHub Actions and Helm charts."
+      ],
+      "estimated_years": 6
+    },
+    "raw_text": "Marcus Vance\nEmail: marcus.vance@cloudops.io | Phone: +1 415 889 9012\nLinkedIn: linkedin.com/in/marcusvance-devops | GitHub: github.com/mvance-ops\nPROFESSIONAL SUMMARY\nLead DevOps & Cloud Infrastructure Architect with 8+ years designing automated CI/CD pipelines, Kubernetes orchestration, and AWS enterprise environments.\nTECHNICAL SKILLS\nAWS, Azure, Docker, Kubernetes, Terraform, Ansible, Jenkins, GitHub Actions, Linux, Bash, Python, Prometheus, Grafana, Nginx, CI/CD, System Design\nWORK EXPERIENCE\nLead Cloud Infrastructure Architect | Enterprise Systems (2020 - Present)\n- Managed multi-region Kubernetes clusters on AWS EKS serving 10M+ active users.\n- Automated infrastructure provisioning with Terraform, cutting setup time by 70%.\nSenior DevOps Engineer | InfraSolutions (2018 - 2020)\n- Implemented GitOps CI/CD pipelines using GitHub Actions and Helm charts.\nEDUCATION\nBachelor of Science in Information Systems - University of Washington (2014 - 2018)",
+    "ats_match": {
+      "ats_score": 27.3,
+      "matched_skills": [
+        "AWS",
+        "Docker",
+        "Python"
+      ],
+      "missing_skills": [
+        "Communication",
+        "Machine Learning",
+        "NLP",
+        "PostgreSQL",
+        "PyTorch",
+        "SQL",
+        "Spacy",
+        "TensorFlow"
+      ],
+      "match_percentage": "27.3%",
+      "recommendation": "Low Match. Missing key requirements: NLP, TensorFlow, PyTorch, Spacy, PostgreSQL."
+    }
+  },
+  {
+    "filename": "4_Sarah_Jenkins_Frontend_Engineer.pdf",
+    "name": "Sarah Jenkins",
+    "email": "sarah.jenkins@designcode.com",
+    "phone": "+1 650 334 1122",
+    "links": {
+      "LinkedIn": "linkedin.com/in/sarahjenkins-fe",
+      "GitHub": "github.com/sjenkins-code"
+    },
+    "skills": {
+      "categorized_skills": {
+        "Programming Languages": [
+          "Javascript",
+          "Typescript",
+          "Html5",
+          "Css3"
+        ],
+        "Web & Frontend Development": [
+          "React",
+          "React.js",
+          "Vue",
+          "Vue.js",
+          "Tailwindcss",
+          "Sass",
+          "Webpack",
+          "Vite",
+          "Redux"
+        ],
+        "Cloud & DevOps": [
+          "Jenkins"
+        ],
+        "Tools & Platforms": [
+          "Github",
+          "Figma"
+        ]
+      },
+      "all_skills": [
+        "Css3",
+        "Figma",
+        "Github",
+        "Html5",
+        "Javascript",
+        "Jenkins",
+        "React",
+        "React.js",
+        "Redux",
+        "Sass",
+        "Tailwindcss",
+        "Typescript",
+        "Vite",
+        "Vue",
+        "Vue.js",
+        "Webpack"
+      ],
+      "total_skills_count": 16
+    },
+    "education": [
+      "Bachelor of Fine Arts in Web Design & Interactive Media - RISD (2017 - 2021)"
+    ],
+    "experience": {
+      "details": [
+        "Senior Frontend Developer | Digital Craft Studio (2021 - Present)",
+        "- Led frontend engineering team in building responsive React applications with 99% Lighthouse score.",
+        "- Created reusable UI component library in Storybook with Figma synchronization."
+      ],
+      "estimated_years": 4
+    },
+    "raw_text": "Sarah Jenkins\nEmail: sarah.jenkins@designcode.com | Phone: +1 650 334 1122 | LinkedIn: linkedin.com/in/sarahjenkins-fe | GitHub:\ngithub.com/sjenkins-code\nPROFESSIONAL SUMMARY\nCreative Frontend Engineer with 5 years specializing in modern UI/UX design systems, Web performance optimization,\nReact, Vue.js, and TypeScript.\nTECHNICAL SKILLS\nJavaScript, TypeScript, React.js, Vue.js, Redux, HTML5, CSS3, Sass, TailwindCSS, Webpack, Vite, Figma, Jest,\nCypress, UI/UX Design\nWORK EXPERIENCE\nSenior Frontend Developer | Digital Craft Studio (2021 - Present)\n- Led frontend engineering team in building responsive React applications with 99% Lighthouse score.\n- Created reusable UI component library in Storybook with Figma synchronization.\nEDUCATION\nBachelor of Fine Arts in Web Design & Interactive Media - RISD (2017 - 2021)",
+    "ats_match": {
+      "ats_score": 0.0,
+      "matched_skills": [],
+      "missing_skills": [
+        "AWS",
+        "Communication",
+        "Docker",
+        "Machine Learning",
+        "NLP",
+        "PostgreSQL",
+        "PyTorch",
+        "Python",
+        "SQL",
+        "Spacy",
+        "TensorFlow"
+      ],
+      "match_percentage": "0.0%",
+      "recommendation": "Low Match. Missing key requirements: Docker, NLP, TensorFlow, PyTorch, Spacy."
+    }
+  },
+  {
+    "filename": "5_Rahul_Verma_Python_Backend_Developer.docx",
+    "name": "Rahul Verma",
+    "email": "rahul.verma@pybackend.net",
+    "phone": "+91 91234 56789",
+    "links": {
+      "LinkedIn": "linkedin.com/in/rahulverma-py",
+      "GitHub": "github.com/rverma-backend"
+    },
+    "skills": {
+      "categorized_skills": {
+        "Programming Languages": [
+          "Python",
+          "SQL"
+        ],
+        "Web & Frontend Development": [
+          "Restful Api"
+        ],
+        "Backend & Frameworks": [
+          "Django",
+          "Flask",
+          "Fastapi",
+          "Microservices"
+        ],
+        "Databases & Storage": [
+          "Mysql",
+          "Redis"
+        ],
+        "Cloud & DevOps": [
+          "Docker",
+          "Linux"
+        ],
+        "Tools & Platforms": [
+          "Git",
+          "Github"
+        ],
+        "Software Engineering & Concepts": [
+          "Pytest"
+        ]
+      },
+      "all_skills": [
+        "Django",
+        "Docker",
+        "Fastapi",
+        "Flask",
+        "Git",
+        "Github",
+        "Linux",
+        "Microservices",
+        "Mysql",
+        "Pytest",
+        "Python",
+        "Redis",
+        "Restful Api",
+        "SQL"
+      ],
+      "total_skills_count": 14
+    },
+    "education": [
+      "Bachelor of Technology in Computer Science - BITS Pilani (2019 - 2023)"
+    ],
+    "experience": {
+      "details": [],
+      "estimated_years": 4
+    },
+    "raw_text": "Rahul Verma\nEmail: rahul.verma@pybackend.net | Phone: +91 91234 56789\nLinkedIn: linkedin.com/in/rahulverma-py | GitHub: github.com/rverma-backend\nPROFESSIONAL SUMMARY\nDedicated Python Backend Developer with 3 years experience building high-throughput REST APIs, asynchronous microservices, and database optimization.\nTECHNICAL SKILLS\nPython, Django, Flask, FastAPI, SQL, MySQL, Redis, Celery, RESTful API, PyTest, Git, Docker, Linux, Microservices\nWORK EXPERIENCE\nBackend Engineer | DataFlow Tech (2023 - Present)\n- Designed asynchronous REST APIs with FastAPI and Pydantic for high-speed data ingestion.\n- Optimized complex MySQL SQL queries and implemented Redis caching, reducing query latency by 50%.\nBackend Developer Intern | PyLabs Solutions (2022 - 2023)\n- Developed unit and integration tests using pytest achieving 95% test coverage.\nEDUCATION\nBachelor of Technology in Computer Science - BITS Pilani (2019 - 2023)",
+    "ats_match": {
+      "ats_score": 27.3,
+      "matched_skills": [
+        "Docker",
+        "Python",
+        "SQL"
+      ],
+      "missing_skills": [
+        "AWS",
+        "Communication",
+        "Machine Learning",
+        "NLP",
+        "PostgreSQL",
+        "PyTorch",
+        "Spacy",
+        "TensorFlow"
+      ],
+      "match_percentage": "27.3%",
+      "recommendation": "Low Match. Missing key requirements: NLP, TensorFlow, PyTorch, Spacy, PostgreSQL."
+    }
+  }
+]
